@@ -7,6 +7,7 @@
 body {
   font-family:'Wendy One', sans-serif;
   height: 100vh;
+  overflow: hidden;
 }
 
 .container {
@@ -34,6 +35,9 @@ body {
   padding: 10px;
   box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
   -webkit-transform-origin: bottom center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .balloon > div:nth-child(1) {
@@ -126,11 +130,11 @@ body {
 span {
   font-size: 4.8em;
   color: white;
-  position: relative;
+  /* position: relative;
   top: 30px;
-  left: 50%;
-  margin-left: -27px;
-  text-transform: uppercase;
+  left: 50%; */
+  /* margin-left: -27px; */
+  /* text-transform: uppercase; */
 }
 
 .celebrated {
